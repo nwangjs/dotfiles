@@ -23,6 +23,18 @@ vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
 
+-- Size <Tab> inserts
+vim.opt.softtabstop = 4
+
+-- Size of auto-indents
+vim.opt.shiftwidth = 4
+
+-- Size of \t
+vim.opt.tabstop = 4
+
+-- Converts \t to spaces
+vim.opt.expandtab = true
+
 -- Enable break indent
 vim.opt.breakindent = true
 
