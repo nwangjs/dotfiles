@@ -11,4 +11,4 @@ keymap('n', '<C-j>', '<C-w>j', { desc = 'Move focus to the lower window' })
 keymap('n', '<C-k>', '<C-w>k', { desc = 'Move focus to the upper window' })
 
 -- Clear search highlights when pressing <Esc> in normal mode
-keymap('n', '<Esc>', '<cmd>nohlsearch<CR>')
+keymap('n', '<Esc>', '<cmd>nohlsearch<CR>', { desc = 'Clear search highlights' })

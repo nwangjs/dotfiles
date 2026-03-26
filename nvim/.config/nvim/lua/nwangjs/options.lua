@@ -1,10 +1,11 @@
 -- [[ Setting options ]]
 -- See `:help vim.opt` or `:help option-list`
 
--- 
+-- Leader key
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- Have nerd font
 vim.g.have_nerd_font = false
 
 -- Absolute line numbers
