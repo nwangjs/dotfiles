@@ -17,6 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- [[ Setup and install plugins ]]
 require('lazy').setup({
-    spec = { { import = "nwangjs.plugins" } },
-    checker = { enabled = true },
+  spec = { { import = "nwangjs.plugins" } },
+  install = { colorscheme = { "tokyonight-night" } },
+  checker = { enabled = true },
 })
