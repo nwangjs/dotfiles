@@ -4,7 +4,6 @@ return {
   lazy = false,
   opts = {
     dashboard = { 
-      enabled = true,
       sections = {
         { section = "header" },
         { section = "keys", gap = 1, padding = 2 },
@@ -13,8 +12,11 @@ return {
         { section = "startup" },
       },
     },
-    explorer = { enabled = true },
-    picker = { enabled = true },
+    explorer = {},
+    indent = {
+      animate = { enabled = false },
+    },
+    picker = {},
   },
   keys = {
     -- Explorer
