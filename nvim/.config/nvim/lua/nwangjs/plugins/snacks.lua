@@ -4,8 +4,12 @@ return {
   lazy = false,
   opts = {
     explorer = { enabled = true },
+    picker = { enabled = true },
   },
   keys = {
-    { "<leader>e", function() Snacks.explorer() end, desc = "File Explorer" },
+    -- Explorer
+    { "<leader>e", function() Snacks.explorer() end, desc = "Explorer" },
+    -- Picker
+    { "<leader><space>", function() Snacks.picker.smart() end, desc = "Picker" },
   },
 }
